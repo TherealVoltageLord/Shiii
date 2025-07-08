@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Custom API Development",
+        "description": "Secure, fast, and scalable API services using Node.js or Python Flask. Perfect for businesses needing robust backend solutions."
+    },
+    {
+        "title": "Frontend Web Design",
+        "description": "Beautiful, responsive websites built with HTML, CSS, JS, or React. Focus on user experience and modern design principles."
+    },
+    {
+        "title": "Bot & Automation",
+        "description": "From WhatsApp bots to Telegram automation using advanced scripting. Save time with custom automation solutions."
+    },
+    {
+        "title": "Technical Consultation",
+        "description": "Expert advice on architecture, technology stack selection, and project planning to ensure your project's success."
+    },
+    {
+        "title": "Portfolio Websites",
+        "description": " Make your professional presence online with our 'designed to fit websites' for your businesses or skills"
+    }
+]
