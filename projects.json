@@ -1,0 +1,57 @@
+{
+  "api": [
+    {
+      "name": "Volt Audio API",
+      "description": "A powerful audio processing API with advanced features",
+      "link": "https://voltagelord-volt-audio.hf.space",
+      "stack": ["Flask", "Python", "FFmpeg"],
+      "type": "api"
+    },
+    {
+      "name": "Volt Translator API",
+      "description": "RESTful translation API supporting multiple languages",
+      "link": "https://volt-translator-api.onrender.com",
+      "stack": ["Python", "Flask", "Google Translate"],
+      "type": "api"
+    }
+  ],
+  "web": [
+    {
+      "name": "Volt Translator Frontend",
+      "description": "Professional frontend for the Volt Translator API",
+      "link": "https://volt-translator.onrender.com",
+      "stack": ["HTML", "CSS", "JavaScript", "Python"],
+      "type": "web"
+    },
+    {
+      "name": "Voltage Lord Portfolio",
+      "description": "Professional portfolio showcasing my work",
+      "link": "Voltage-domain.zone.id",
+      "stack": ["HTML", "CSS", "JavaScript"],
+      "type": "web"
+    },
+    {
+       "name": "Voltunix Casino",
+       "description": "Professional Virtual currency based casino game",
+       "link": "https://voltunix-casino.onrender.com",
+       "stack": ["HTML", "CSS", "JavaScript"],
+       "type": "web"
+    }
+  ],
+  "upcoming": [
+    {
+      "name": "Voltura",
+      "description": "Revolutionary mobile application for power management",
+      "link": "#",
+      "stack": ["React Native", "Firebase"],
+      "type": "upcoming"
+    },
+    {
+      "name": "Volt AI",
+      "description": "AI-powered personal assistant application",
+      "link": "#",
+      "stack": ["Flutter", "TensorFlow"],
+      "type": "upcoming"
+    }
+  ]
+}
