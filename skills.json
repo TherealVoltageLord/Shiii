@@ -1,0 +1,42 @@
+[
+    {
+        "name": "JavaScript",
+        "percent": 70,
+        "icon": "fab fa-js"
+    },
+    {
+        "name": "HTML & CSS",
+        "percent": 99.9,
+        "icon": "fab fa-html5"
+    },
+    {
+        "name": "Python",
+        "percent": 60,
+        "icon": "fab fa-python"
+    },
+    {
+        "name": "Node.js",
+        "percent": 50,
+        "icon": "fab fa-node-js"
+    },
+    {
+        "name": "Express",
+        "percent": 75,
+        "icon": "fas fa-server"
+    },
+    {
+        "name": "React",
+        "percent": 65,
+        "icon": "fab fa-react"
+    },
+    {
+        "name": "Flutter",
+        "percent": 70,
+        "icon": "fas fa-mobile-alt"
+    },
+    {
+        "name": "API Design",
+        "percent": 85,
+        "icon": "fas fa-code"
+    }
+]
