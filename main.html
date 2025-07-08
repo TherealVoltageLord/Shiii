@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltage Lord | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="particles-js" id="particles-main"></div>
+    
+    <header class="glass-nav">
+        <div class="logo">
+            <span class="logo-text">VOLTAGE LORD</span>
+            <span class="logo-subtext">⚡ TECHNICAL SOVEREIGN</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#offers">Services</a></li>
+                <li><button id="contact-btn">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="glass-section">
+            <div class="hero-content">
+                <h1>VOLTAGE LORD</h1>
+                <p class="hero-subtitle">ARCHITECT OF POWERFUL SYSTEMS</p>
+                <div class="hero-tags">
+                    <span class="tag api">API DEVELOPMENT</span>
+                    <span class="tag web">FRONTEND ENGINEERING</span>
+                    <span class="tag node">NODE.JS SPECIALIST</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="glass-section">
+            <h2 class="section-title">PROJECTS</h2>
+            <div class="project-tabs">
+                <button class="tab-btn active" data-category="all">ALL</button>
+                <button class="tab-btn" data-category="api">API</button>
+                <button class="tab-btn" data-category="web">WEB</button>
+                <button class="tab-btn" data-category="apk">APK</button>
+            </div>
+            <div class="projects-container" id="projects-container">
+                <!-- Projects loaded from JSON -->
+            </div>
+        </section>
+
+        <section id="skills" class="glass-section">
+            <h2 class="section-title">TECHNICAL MASTERY</h2>
+            <div class="skills-container" id="skills-container">
+                <!-- Skills loaded from JSON -->
+            </div>
+        </section>
+
+        <section id="about" class="glass-section">
+            <h2 class="section-title">THE ARCHITECT</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Odunayo Ayinla, but you can call me Voltage Lord �</p>
+                    <p>As a passionate developer with a strong focus on API building, frontend development, and NodeJS, I've been shaking the tech space since 2020.</p>
+                    <p>My journey began under the mentorship of experienced devs, where I sharpened my skills and learned the power of clean code and clean design.</p>
+                    <p>In 2022, I partnered with Silent, the dev of Demon Killer V5 (WhatsApp Bot). Though short-lived, that experience ignited a new level of hunger in me.</p>
+                    <p>In 2023, I dove deep into Python and started building powerful APIs — and I've been unstoppable since.</p>
+                    <p>I've built live APIs, launched full frontend apps, and I'm now creating bigger visions like Voltura, Volt AI, and more.</p>
+                    <p>I'm always pushing limits, crafting new tools, and creating futuristic user experiences.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="offers" class="glass-section">
+            <h2 class="section-title">SERVICES</h2>
+            <div class="offers-container" id="offers-container">
+                <!-- Offers loaded from JSON -->
+            </div>
+        </section>
+    </main>
+
+    <div id="contact-modal" class="modal">
+        <div class="modal-content glass-section">
+            <span class="close-btn">&times;</span>
+            <h2>CONTACT THE LORD</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="YOUR NAME" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="YOUR EMAIL">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="YOUR MESSAGE" required></textarea>
+                </div>
+                <div class="contact-options">
+                    <button type="button" class="contact-option whatsapp" data-type="whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button type="button" class="contact-option telegram" data-type="telegram">
+                        <i class="fab fa-telegram"></i> Telegram
+                    </button>
+                    <button type="submit" class="contact-option email">
+                        <i class="fas fa-envelope"></i> Email
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-logo">VOLTAGE LORD ⚡</div>
+            <div class="footer-links">
+                <a href="https://github.com/TherealVoltageLord"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/therealvoltage_lord?igsh=MXU5aG1hbzdyNm96OQ=="><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/voltage_lord0?t=pK0zVfCcp0ZGzod0kTiq_A&s=08"><i class="fab fa-x"></i></a>
+            </div>
+            <div class="footer-copy">© 2025 VOLTAGE EMPIRE. ALL POWER RESERVED.</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
